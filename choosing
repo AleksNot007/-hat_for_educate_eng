@@ -1,0 +1,5 @@
+import random
+print("как на англ будет")
+word = str(random.choice(list(open('en_dict.txt'))).split()[1])
+print(type(word))
+print(type(1))
